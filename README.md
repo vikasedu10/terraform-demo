@@ -17,8 +17,6 @@
 ---
 
 <p align="center"> Sample Terraform Demo (tool for Infrastructure orchestration)
-
-    <br> 
 </p>
 
 ## 📝 Table of Contents
@@ -30,7 +28,22 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This project is a sample demo and learning of Terraform
+This project is a sample demo and learning of Terraform object as below:
+
+### 01: Create subnets
+- Create a new subnet
+- Create a sub-net from existing vpc's using vpc id
+
+### 02: Create vpc's 
+- Define tags attribute
+- Use variables created in terraform.tfvars
+
+### 03: Usage of the following:
+- Variables (terraform.tfvars) file
+- Global variables
+- TF_VARS gloabal variables
+- Terraform init, run, plan, destroy command used
+- Display some outputs
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
